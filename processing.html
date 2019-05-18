@@ -19,7 +19,7 @@
 		}
 		</style>
 	
-		<title>minecraft</title>
+		<title>processing</title>
 		
 	 </head>
 	
@@ -28,7 +28,7 @@
 	
 	<div class="container">
 
-		<nav class="navbar navbar-expand-lg navbar-dark bg-company-red fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-company-red fixed-top">
 	<a class="navebar-brand navbar-dark" href="index.html" style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'; text-decoration: none; color: #FFFFFF; ">blk74 </a>
 	
 	<ul class="navbar-nav ml-auto">
@@ -41,13 +41,13 @@
      <li class="nav-item">
       <a class="nav-link" href="meme.html">meme</a>
     </li>
-	 <li class="nav-item active">
+	 <li class="nav-item">
       <a class="nav-link" href="minecraft.html">minecraft</a>
     </li>
 	 <li class="nav-item">
       <a class="nav-link" href="glitch.html">glitch art</a>
     </li>
-		 <li class="nav-item">
+		 <li class="nav-item active">
       <a class="nav-link" href="processing.html">processing</a>
     </li>
 		 <li class="nav-item">
@@ -61,24 +61,60 @@
 </nav>
 		<div style="background:transparent !important" class="jumbotron">
 			
-    <h4 class="hello" style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'; width: 600px;">Creating 3D scupltures in Minecraft and bringing them to life.</h4>
+    <h4 class="hello" style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'; width: 600px;">Created Glitch Art through opening image files in software not meant for images.</h4>
 </div>
 		
 
-<div class="img-fluid" style="padding-bottom: 15px"><img src="images/minecraft.png" alt="meme" width="400"></div>
+<div class="img-fluid" style="padding-bottom: 15px"><img src="images/me_head.png" alt="meme" width="500" height="500"></div>
 	  
-	  
-	  <p style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'; font-size: 15px">We created a sculpture in Minecraft and 3D printed it.</p>
 
-<div class="img-fluid" style="padding-bottom: 15px; padding-top: 30px"><img src="images/plant3d.jpg" alt="3D plant" width="400px"></div>
-	  
-	
+	  <p style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'; font-size: 15px">function setup() {
+createCanvas(1000, 1000);
+angleMode(DEGREES);
+}
+function draw() {
+background(300,100,10);
+strokeJoin(ROUND);
+beginShape();
+curveVertex(300, 500);
+curveVertex(300, 500);
+curveVertex(299, 460);
+curveVertex(313, 400);
+curveVertex(340, 360);
+curveVertex(390, 330);
+curveVertex(390, 330);
+endShape();
+beginShape();
+curveVertex(390, 330);
+curveVertex(390, 330);
+curveVertex(420, 280);
+curveVertex(525, 240);
+curveVertex(630, 280);
+curveVertex(650, 365);
+curveVertex(660, 370);
+
+ 
+
+endShape();
+fill(222,184,135)
+ellipse(500,500,400,400);
+fill(0,0,0)
+ellipse(425,425, 40,40)
+ellipse(575,420, 45,45)
+rect(450,475,100,10)
+rect(405,400,40,8)
+rect(545,385,60,8)
+
+
+} </p>
+    
+		
 		<div class="panel panel-default">
   <div class="panel-footer foot" style="font-size: 10px; margin-top: 50px; margin-bottom: 20px">
     <p>&copy; 2019 Marc Montenegro All Rights Reserved.&nbsp;</p>
   </div>
 </div>
 
-		</div>
+</div>
 </body>
 </html>
